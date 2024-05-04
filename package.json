@@ -27,5 +27,8 @@
     "style-loader": "^3.3.4",
     "tailwindcss": "3.4.1",
     "typescript": "5.3.3"
+  },
+  "devDependencies": {
+    "@types/react-modal-video": "^1.2.3"
   }
 }

@@ -3,7 +3,6 @@
 import Image from "next/image";
 import { useState } from "react";
 import SectionTitle from "../../components/SectionTitle";
-
 import ModalVideo from "react-modal-video";
 
 const Video = () => {
@@ -54,8 +53,6 @@ const Video = () => {
 
       <ModalVideo
         channel="youtube"
-        autoplay={true}
-        start={true}
         isOpen={isOpen}
         videoId="zRwt25M5nGw"
         onClose={() => setOpen(false)}
